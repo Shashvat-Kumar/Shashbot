@@ -1,6 +1,5 @@
 newspaper3k
 nltk
 numpy
-warnings
 scipy
 googlesearch
