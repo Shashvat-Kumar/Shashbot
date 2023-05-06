@@ -2,4 +2,4 @@ newspaper3k
 nltk
 numpy
 scipy
-googlesearch
+googlesearch-python
