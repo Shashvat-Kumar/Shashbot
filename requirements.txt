@@ -5,3 +5,4 @@ scipy
 googlesearch-python
 sklearn
 scikit-learn
+streamlit
