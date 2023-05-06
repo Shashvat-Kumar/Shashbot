@@ -1,6 +1,6 @@
-py -m pip install newspaper3k
-py -m pip install nltk
-py -m pip install numpy
-py -m pip install warnings
-py -m pip install scipy
-py -m pip install googlesearch
+newspaper3k
+nltk
+numpy
+warnings
+scipy
+googlesearch
