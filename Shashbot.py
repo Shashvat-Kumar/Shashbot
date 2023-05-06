@@ -12,7 +12,6 @@ while program==True:
     nltk.download('punkt',quiet=True)
     nltk.download('wordnet',quiet=True)
     query=st.text_input("Hi there! I am Shashbot. How may I help you today?") 
-    print(query)
     try:
        from googlesearch import search
     except ImportError:
