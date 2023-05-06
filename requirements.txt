@@ -3,3 +3,5 @@ nltk
 numpy
 scipy
 googlesearch-python
+sklearn
+scikit-learn
