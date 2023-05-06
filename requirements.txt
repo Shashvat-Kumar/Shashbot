@@ -1,8 +1,0 @@
-newspaper3k
-nltk
-numpy
-scipy
-googlesearch-python
-sklearn
-scikit-learn
-streamlit

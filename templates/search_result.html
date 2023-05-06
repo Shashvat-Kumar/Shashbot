@@ -1,0 +1,14 @@
+<html>
+
+<body>
+    <p> <b>You asked me -</b> <i>{{ query }}</i> </p>
+    <p> Below is my answer! </p>
+    <p> <b>{{ answer }}</b> </p>
+
+    <form action="{{ url_for('home') }}" method="get">
+        <p> <em>Ask me another question now!</em> </p>
+        <p><input type="submit" value="Go" /></p>
+    </form>
+</body>
+
+</html>
