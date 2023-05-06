@@ -1,6 +1,7 @@
 #Shashbot
 program=True
 while program==True:
+    import streamlit as st
     from newspaper import Article
     import numpy as np
     import warnings
@@ -10,7 +11,7 @@ while program==True:
     warnings.filterwarnings('ignore')
     nltk.download('punkt',quiet=True)
     nltk.download('wordnet',quiet=True)
-    query=input("Hi there! Shashbot here. How can I help you? ")
+    query=st.text_input("Hi there! I am Shashbot. How may I help you today?") 
     try:
        from googlesearch import search
     except ImportError:
